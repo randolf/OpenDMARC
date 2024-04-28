@@ -353,7 +353,7 @@ CREATE TABLE messages (
 	--    4 = quarantine
 	--    ? = unknown (all other values)
 	--
-	disp		BIGINT		not null references reporters(id),
+	disp		SMALLINT	not null,
 
 	-- -------------------------------------------------------------
 	-- IP address ID.
